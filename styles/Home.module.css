@@ -1,5 +1,10 @@
 .container {
   padding: 0 2rem;
+  background-color: rgba(50, 51, 62, 1);
+  background-image: url("https://readyplayer.me/images/bg/pink.png");
+  background-position: 550px;
+  background-size: 20%;
+  background-repeat: no-repeat;
 }
 
 .main {
@@ -67,8 +72,8 @@
 
 .grid {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
   flex-wrap: wrap;
   max-width: 800px;
 }
@@ -77,12 +82,20 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: white;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  background-color: rgba(9, 20, 26, 0.8);
+  box-shadow: 0 0 0 1px transparent;
+  backdrop-filter: blur(12px);
+  transition: "background-color .15s,box-shadow .15s";
+  transition-property: "background-color, box-shadow";
+  transition-duration: 0.15s, 0.15s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
 }
 
 .card:hover,
