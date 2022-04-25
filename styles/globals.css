@@ -1,7 +1,10 @@
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
 @tailwind utilities;
 
+/* purgecss start ignore */
 @layer utilities {
   .clipped {
     /* clip-path: polygon(-10% -10%, 110% -10%, 110% 110%, 10% 110%, -10% 40%); */
