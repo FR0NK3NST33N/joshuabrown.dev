@@ -1,11 +1,12 @@
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
 @tailwind utilities;
 
-/* purgecss start ignore */
 @layer utilities {
+  .layout {
+    min-height: 100vh;
+    color: white;
+  }
   .clipped {
     /* clip-path: polygon(-10% -10%, 110% -10%, 110% 110%, 10% 110%, -10% 40%); */
     clip-path: polygon(100% 0, 100% 70%, 95% 100%, 0 100%, 0 0);
