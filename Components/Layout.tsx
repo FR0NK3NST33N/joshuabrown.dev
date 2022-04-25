@@ -13,7 +13,7 @@ export const Layout = ({
   children,
 }: LayoutProps) => {
   return (
-    <div className="flex min-w-screen p-12 layout bg-dark">
+    <div className="flex min-h-screen min-w-screen p-12 text-white bg-dark">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
