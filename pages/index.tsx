@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex basis-[66vw] flex-col grow lg:justify-center min-h-full lg:p-64 md:p-8">
+        <div className="flex basis-[66vw] flex-col grow lg:justify-center lg:p-64 md:p-8">
           <h1 className="font-bold text-4xl pb-4"> Work</h1>
           <a
             href="https://github.com/peet-defi/parallax-ui"
