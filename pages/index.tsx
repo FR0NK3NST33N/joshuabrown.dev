@@ -76,16 +76,16 @@ const Home: NextPage = () => {
             </div>
           </a>
           <a
-            href="https://github.com/FR0NK3NST33N/doction"
+            href="https://github.com/FR0NK3NST33N/pollz"
             target="_blank"
             rel="noreferrer"
           >
             <div className="bg-slate-700 p-1 md:min-w-[465px] lg:max-w-2xl lg:justify-center sm:min-w-full clipped hover:cursor-pointer mb-4">
               <div className="bg-dark min-w-full p-4 hover:bg-slate-700 clipped-inner">
-                <h1 className="text-2xl font-bold">Doction</h1>
+                <h1 className="text-2xl font-bold">Pollz</h1>
                 <div className="flex flex-row">
                   <AiOutlineCode className="mt-1 mr-2" />
-                  Rust
+                  NextJS, MUI, Prisma
                 </div>
               </div>
             </div>
